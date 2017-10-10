@@ -1,0 +1,43 @@
+// Styling for clients section
+
+#clients{
+    padding: 100px 0;
+    .small{
+        margin-bottom: 25px;
+    }
+    .centered{
+        height: 100px;
+        display: flex;
+        align-items: center;
+        .client-item{
+            .client-title.text{
+                font-family: "Cormorant Garamond";
+                font-size: 25px;
+                letter-spacing: 3px;
+                margin-left: 8px;
+                transition: 400ms;
+                opacity: 0.8;
+                cursor: default;
+                &:hover{
+                    opacity: 0.6;
+                }
+            }
+            img{
+                width: 100px;
+                -webkit-filter: grayscale(100%); /* Safari 6.0 - 9.0 */
+                filter: grayscale(100%);
+                background-color:white;
+                mix-blend-mode: multiply;
+                transition: 400ms;
+                opacity: 0.9;
+                &:hover{
+                    opacity: .6;
+                }
+                img>&:nth-child(4) {
+                    width: 80px;
+                }
+            }
+        }
+       
+    }
+}

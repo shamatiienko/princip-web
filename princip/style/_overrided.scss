@@ -1,0 +1,19 @@
+// Overrided Bootstrap 4
+
+.btn-xl{
+    border-radius: 0;
+    color: #fff !important;
+    padding: 12px 40px;    
+    background-color: $primary-color;
+    text-transform: uppercase;
+    font-size: 17px;
+    letter-spacing: 1px;
+}
+
+.text-primary {
+    color: $primary-color !important;
+}
+
+.bg-light{
+    background-color: #f9f9fa !important;
+}
