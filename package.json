@@ -21,7 +21,6 @@
   },
   "homepage": "https://github.com/shamatiienko/princip-web",
   "dependencies": {
-    "ejs": "^5.3.0",
     "express": "^4.16.2",
     "nodemon": "^1.12.1"
   }
