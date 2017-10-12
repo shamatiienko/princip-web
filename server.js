@@ -20,7 +20,7 @@
 // require our dependencies
 var express = require('express');
 var app = express();
-var port = 8080;
+var port = process.env.PORT || 8080;
 
 // route our app
 var router = require('./app/routes');
@@ -31,5 +31,5 @@ app.use(express.static(__dirname + '/public'));
 
 // start the server
 app.listen(port, function () {
-    console.log('log started');
+    // console.log('log started');
 });
