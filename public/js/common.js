@@ -8,7 +8,7 @@
         }, 1500);
     });
 
-    $(window).scroll(function () {
+    $(module).scroll(function () {
         if ($("#mainNav").offset().top > 100) {
             $("#mainNav").addClass("navbar-shrink");
         } else {
@@ -111,7 +111,7 @@
 
     // Scroll reveal calls ///Анімація-символи,картинки,значки з'являються поступово
     // https://github.com/jlmakes/scrollreveal
-    window.sr = ScrollReveal();
+    module.sr = ScrollReveal();
     sr.reveal('.service-item', {
         duration: 900, //час, на протязі того як він з'являється
         scale: 0.8, // розмір елемента пiл час того як він з'являється
