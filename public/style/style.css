@@ -313,7 +313,8 @@ section {
     padding: 1rem; }
 #contact .form-control {
   font-size: 1rem;
-  letter-spacing: 1px; }
+  letter-spacing: 1px;
+  border-radius: 0 !important; }
   #contact .form-control:focus {
     border-color: #feb41d;
     box-shadow: none; }
