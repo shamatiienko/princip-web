@@ -1,7 +1,7 @@
 // Styling for navigation section
 
 #mainNav{
-    background-color: rgba(30,30,30,0.6);
+    background-color: rgba(0, 0, 0, .3);
     padding: 0;
     .navbar-brand{
         text-transform: uppercase;
@@ -9,7 +9,7 @@
         letter-spacing: 2px;
         font-size: 1.25rem;
         line-height: inherit;
-        color: #fff;
+        color: $primary-color;
         display: inline-block;
         #title-img{
             width: 3rem;
@@ -140,7 +140,7 @@
          &.navbar-shrink{
             padding-top: 0;
             padding-bottom: 0;
-            background-color: #222;
+            background-color: rgba(0, 0, 0, .8);
             .navbar-brand {
                 font-size: 1.1em;
                 #title-img{

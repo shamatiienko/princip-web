@@ -1,10 +1,13 @@
 // Styling for products section
 
 #products{
-    padding: 100px 0;
     background-color: $primary-color;
     color: white;
     .section-heading{
         margin-bottom: 50px;
+    }
+    .sub-text{
+        opacity: 0.8;
+        font-size: 1.09rem;
     }
 }

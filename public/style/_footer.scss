@@ -1,7 +1,6 @@
 // Styling for footer
 
 footer{
-    padding: 100px 0;
     h4{
         text-transform: uppercase;
         letter-spacing: 2px;
@@ -45,7 +44,7 @@ footer{
         bottom: 5px;
         padding: 16px;
         display: none;
-        background-color: rgba(30, 30, 30, 0.6);
+        background-color: $primary-color;
         color: white;
         border-radius: 0;
         &:hover{

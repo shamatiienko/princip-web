@@ -1,12 +1,21 @@
 // Styling for services section
 
 #services{
-    padding: 100px 0;
     .heading-text{
         margin-bottom: 75px;
     }
     
-    .service-heading{
+    .fa-4x {
+        font-size: 3.5em !important;
+    }
+
+    h4.service-heading{
         margin-top: 15px;
+        font-weight: 600;
+        text-transform: uppercase;
+        font-size: 1.2rem;
+    }
+    p{
+        font-size: 1.09rem;
     }
 }

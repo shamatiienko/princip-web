@@ -1,12 +1,11 @@
 // Styling for clients section
 
 #clients{
-    padding: 100px 0;
     .small{
         margin-bottom: 25px;
     }
     .centered{
-        height: 100px;
+        height: auto;
         display: flex;
         align-items: center;
         .client-item{
@@ -23,7 +22,7 @@
                 }
             }
             img{
-                width: 100px;
+                width: 5rem;
                 -webkit-filter: grayscale(100%); /* Safari 6.0 - 9.0 */
                 filter: grayscale(100%);
                 background-color:white;
@@ -34,7 +33,7 @@
                     opacity: .6;
                 }
                 img>&:nth-child(4) {
-                    width: 80px;
+                    width: 20px;
                 }
             }
         }

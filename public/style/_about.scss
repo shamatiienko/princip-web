@@ -1,9 +1,12 @@
 // Styling for about section
 
 #about{
-    padding: 100px 0;
     .section-heading{
         margin-bottom: 55px;
+    }
+    
+    h4{
+        font-size: 1.2rem;
     }
     // padding: 0;
     // .img-about{
@@ -34,9 +37,9 @@
     .tech-item{
         margin: 1rem;
         img{
-            width: 9rem;
+            width: 7rem;
             &.icon{
-                width: 5rem;
+                width: 4rem;
             }
         }
     }  

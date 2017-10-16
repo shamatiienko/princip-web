@@ -1,6 +1,80 @@
 // Styling fo contact section
 
-.map{
+#contact {
+    .section-heading {
+
+    }
+    .form-group {
+        margin-bottom: 1.67rem;
+        input{
+            padding: 1rem;
+            color: $input-text-color;
+        }
+        textarea.form-control {
+            height: 13rem;
+        }
+        textarea {
+            padding: 1rem;
+        }
+    }
+    .form-control{
+        font-size: 1rem;
+        letter-spacing: 1px;
+        &:focus {
+            border-color: $primary-color;
+            box-shadow: none;
+        }
+    }
+    ::-webkit-input-placeholder {
+        font-weight: 500;
+        color: $input-text-color;
+        text-transform: uppercase; 
+    }
+    :-moz-placeholder {
+        font-weight: 500;
+        color: $input-text-color;
+        text-transform: uppercase; 
+    }
+    ::-moz-placeholder {
+        font-weight: 500;
+        color: $input-text-color;
+        text-transform: uppercase; 
+    }
+     :-ms-input-placeholder {
+        font-weight: 500;
+        color: $input-text-color;
+        text-transform: uppercase; 
+     }
+}
+
+// .btn-submit {
+//     font-size: 18px;
+//     font-weight: 700;
+//     padding: 20px 40px;
+//     border-radius: 0px;;
+//     color: #fff;
+//     border-color: red;
+//     background-color: red;
+//     text-transform: uppercase;
+//     &.focus, &:focus {
+//         color: white;
+//         border-color: #b48b01;
+//     }
+//     &:hover {
+//     color: white;
+//     border-color: #f6bf01;
+//     }
+//     &.active, &:active{
+//         background-image: none;
+//     }
+// }
+
+label{
+    color: red;
+}
+
+#map{
+    padding: 0;
     height: 500px;
     iframe{
         width: 100%;
