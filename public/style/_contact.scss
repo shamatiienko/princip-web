@@ -1,6 +1,9 @@
 // Styling fo contact section
 
 #contact {
+    // p{
+    //     color: $primary-color-hover;
+    // }
     .form-group {
         margin-bottom: 1.67rem;
         input{
@@ -8,7 +11,7 @@
             color: $input-text-color;
         }
         textarea.form-control {
-            height: 13rem;
+            height: 12.6rem;
         }
         textarea {
             padding: 1rem;

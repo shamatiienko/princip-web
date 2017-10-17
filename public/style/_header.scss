@@ -28,11 +28,16 @@
         border-radius: 0;
         color: #fff !important;
         padding: 12px 40px;    
-        background-color: $primary-color;
+        background:linear-gradient(to right, #FEB41E 0%, #f0bf6a 50%, #f5a70a 100%);
+        background-size: 200% auto;
         text-transform: uppercase;
         font-size: 1.1rem;
         font-weight: 600;
         letter-spacing: 1px;
+        transition: background-position 0.5s;
+        &:hover{
+            background-position: right center;
+        }
     //     &:hover {
     //         border: none;
     //         .line-1 {
@@ -159,46 +164,46 @@
 //     }
 // }
 
-/* Ripple Out */
-@-webkit-keyframes hvr-ripple-out {
-    100% {
-    top: -12px;
-    right: -12px;
-    bottom: -12px;
-    left: -12px;
-    opacity: 0;
-    }
-}
-@keyframes hvr-ripple-out {
-    100% {
-    top: -12px;
-    right: -12px;
-    bottom: -12px;
-    left: -12px;
-    opacity: 0;
-    }
-}
-.hvr-ripple-out {
-    display: inline-block;
-    vertical-align: middle;
-    -webkit-transform: perspective(1px) translateZ(0);
-    transform: perspective(1px) translateZ(0);
-    box-shadow: 0 0 1px transparent;
-    position: relative;
-    &:before{
-        content: '';
-        position: absolute;
-        border: #feb41d solid 6px;
-        top: 0;
-        right: 0;
-        bottom: 0;
-        left: 0;
-        -webkit-animation: 1.5s;
-        animation: 1.5s;
+// /* Ripple Out */
+// @-webkit-keyframes hvr-ripple-out {
+//     100% {
+//     top: -12px;
+//     right: -12px;
+//     bottom: -12px;
+//     left: -12px;
+//     opacity: 0;
+//     }
+// }
+// @keyframes hvr-ripple-out {
+//     100% {
+//     top: -12px;
+//     right: -12px;
+//     bottom: -12px;
+//     left: -12px;
+//     opacity: 0;
+//     }
+// }
+// .hvr-ripple-out {
+//     display: inline-block;
+//     vertical-align: middle;
+//     -webkit-transform: perspective(1px) translateZ(0);
+//     transform: perspective(1px) translateZ(0);
+//     box-shadow: 0 0 1px transparent;
+//     position: relative;
+//     &:before{
+//         content: '';
+//         position: absolute;
+//         border: #feb41d solid 6px;
+//         top: 0;
+//         right: 0;
+//         bottom: 0;
+//         left: 0;
+//         -webkit-animation: 1.5s;
+//         animation: 1.5s;
         
-    }
-    &:hover:before, &:focus:before, &:active:before{
-        -webkit-animation-name: hvr-ripple-out;
-        animation-name: hvr-ripple-out;
-    }
-}
+//     }
+//     &:hover:before, &:focus:before, &:active:before{
+//         -webkit-animation-name: hvr-ripple-out;
+//         animation-name: hvr-ripple-out;
+//     }
+// }
