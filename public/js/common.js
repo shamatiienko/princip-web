@@ -25,12 +25,6 @@
     });
     $(function () { $(".scroll").click(function () { $("html,body").animate({ scrollTop: $("#page-top").offset().top }, "slow"); return false }) })
 
-    $(document).ready(function () {
-        $('#nav-icon').click(function () {
-            $(this).toggleClass('open');
-        });
-    });
-
     // Scroll to the top of page
     var fixed = false;
     $(document).scroll(function () {
@@ -106,7 +100,7 @@
     // Activate scrollspy to add active class to navbar items on scroll //Коли гортає донизу сторінку,то активні силки в навбарі підсвічуюються
     $('body').scrollspy({
         target: '#mainNav',
-        offset: 85
+        offset: 75
     });
 
     // Scroll reveal calls ///Анімація-символи,картинки,значки з'являються поступово
@@ -119,11 +113,6 @@
         opacity: 0.3
         //reset: false // оновлення кожного разу,коли елементи відочні
     }, 200); // послідовність-час, за який з'являється кожен наступний елемент
+})
     // Using multiple unit types within one animation.
-
-    function Redirect() {
-        window.location.href = '/products';
-    }
-});
-
-(jQuery);
+    (jQuery);
