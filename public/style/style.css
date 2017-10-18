@@ -4,7 +4,8 @@ html, body {
 
 body {
   font-family: 'Raleway', sans-serif;
-  font-size: 1rem; }
+  font-size: 1rem;
+  overflow-x: hidden; }
 
 section {
   padding: 100px 0; }
@@ -20,7 +21,8 @@ section {
   text-shadow: none; }
 
 *:focus {
-  outline: none !important; }
+  outline: none !important;
+  box-shadow: none !important; }
 
 .heading-text {
   text-transform: uppercase;
@@ -178,7 +180,6 @@ p {
           width: 2rem;
           height: 2rem; } }
 .header {
-  overflow: hidden;
   position: relative;
   display: table;
   width: 100%;
@@ -268,6 +269,9 @@ p {
   transition: background-position 0.5s; }
   .btn-cont .btn-more:hover {
     background-position: right center; }
+  .btn-cont .btn-more:active {
+    background-color: lime !important;
+    border-color: #feb41d; }
 
 #products {
   background-color: #feb41d;
