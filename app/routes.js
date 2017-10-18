@@ -13,6 +13,10 @@ router.get('/', function (req, res) {
     res.sendFile(path.join(__dirname, '../index.html'));
 });
 
+router.get('/products', function (req, res) {
+    res.sendFile(path.join(__dirname, '../products.html'));
+});
+
 // route for our about page
 router.get('/about', function (req, res) {
     res.send('hello world i am about page');

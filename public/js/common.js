@@ -119,6 +119,11 @@
         opacity: 0.3
         //reset: false // оновлення кожного разу,коли елементи відочні
     }, 200); // послідовність-час, за який з'являється кожен наступний елемент
-})
     // Using multiple unit types within one animation.
-    (jQuery);
+
+    function Redirect() {
+        window.location.href = '/products';
+    }
+});
+
+(jQuery);
