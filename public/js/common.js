@@ -112,7 +112,7 @@
     // Scroll reveal calls ///Анімація-символи,картинки,значки з'являються поступово
     // https://github.com/jlmakes/scrollreveal
     window.sr = ScrollReveal();
-    sr.reveal('.service-item', {
+    sr.reveal('.service-item', '.service-heading', 'p', {
         duration: 900, //час, на протязі того як він з'являється
         scale: 0.8, // розмір елемента пiл час того як він з'являється
         distance: '20px', // відстань, яку проходить елемент під час того як з'являється
