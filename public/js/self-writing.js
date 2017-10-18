@@ -1,5 +1,5 @@
 $(function () {
-    $('#selfwr-text').typed({
+    $('#selfwr-text1').typed({
         strings: [
             "IoT пристрої (прототипування та впровадження)",
             "Програмне забезпечення IoT",
