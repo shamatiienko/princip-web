@@ -20,7 +20,7 @@
 // require our dependencies
 var express = require('express');
 var app = express();
-var port = process.env.PORT || 8080;
+var port = process.env.PORT || 8000;
 
 // route our app
 var router = require('./app/routes');

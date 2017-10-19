@@ -10,7 +10,7 @@ footer{
         a{
             color: $primary-color;
             &:hover{
-                color: $primary-color-hover;
+                opacity: .8;
             }
         }
     }

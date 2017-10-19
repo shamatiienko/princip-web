@@ -269,9 +269,6 @@ p {
   transition: background-position 0.5s; }
   .btn-cont .btn-more:hover {
     background-position: right center; }
-  .btn-cont .btn-more:active {
-    background-color: lime !important;
-    border-color: #feb41d; }
 
 #products {
   background-color: #feb41d;
@@ -384,7 +381,7 @@ footer h4 {
 footer .list-unstyled a {
   color: #feb41d; }
   footer .list-unstyled a:hover {
-    color: #e9b24d; }
+    opacity: .8; }
 footer a {
   color: rgba(30, 30, 30, 0.6);
   -webkit-transition: all 1s;
