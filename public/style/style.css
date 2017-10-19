@@ -197,8 +197,7 @@ p {
     height: 80px; }
     .header #selfwr-text .item-1,
     .header #selfwr-text .item-2,
-    .header #selfwr-text .item-3,
-    .header #selfwr-text .item-4 {
+    .header #selfwr-text .item-3 {
       color: #feb41d;
       font-weight: 600;
       font-size: 2.4rem;
@@ -214,13 +213,41 @@ p {
       animation-name: anim-2; }
     .header #selfwr-text .item-3 {
       animation-name: anim-3; }
-    .header #selfwr-text .item-4 {
-      animation-name: anim-4; }
+@-webkit-keyframes anim-1 {
+  0%, 8.3% {
+    left: -100%;
+    opacity: 0; }
+  8.3%, 25% {
+    left: 0%;
+    opacity: 1; }
+  33.33%, 100% {
+    left: 100%;
+    opacity: 0; } }
+@-webkit-keyframes anim-2 {
+  0%, 33.33% {
+    left: -100%;
+    opacity: 0; }
+  41.63%, 58.29% {
+    left: 0%;
+    opacity: 1; }
+  66.66%, 100% {
+    left: 100%;
+    opacity: 0; } }
+@-webkit-keyframes anim-3 {
+  0%, 66.66% {
+    left: -100%;
+    opacity: 0; }
+  74.96%, 91.62% {
+    left: 0%;
+    opacity: 1; }
+  100% {
+    left: 100%;
+    opacity: 0; } }
 @keyframes anim-1 {
   0%, 8.3% {
     left: -100%;
     opacity: 0; }
-  8.3%,25% {
+  8.3%, 25% {
     left: 0%;
     opacity: 1; }
   33.33%, 100% {
@@ -234,7 +261,7 @@ p {
     left: 0%;
     opacity: 1; }
   66.66%, 100% {
-    left: 110%;
+    left: 100%;
     opacity: 0; } }
 @keyframes anim-3 {
   0%, 66.66% {
@@ -244,17 +271,7 @@ p {
     left: 0%;
     opacity: 1; }
   100% {
-    left: 110%;
-    opacity: 0; } }
-@keyframes anim-4 {
-  0%, 99.99% {
-    left: -100%;
-    opacity: 0; }
-  107%, 124% {
-    left: 0%;
-    opacity: 1; }
-  100% {
-    left: 110%;
+    left: 100%;
     opacity: 0; } }
 .btn-cont .btn-more {
   border-radius: 0;
