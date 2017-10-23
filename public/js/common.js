@@ -25,6 +25,12 @@
     });
     $(function () { $(".scroll").click(function () { $("html,body").animate({ scrollTop: $("#page-top").offset().top }, "slow"); return false }) })
 
+    $(document).ready(function () {
+        $("#nav-icon").click(function () {
+            $(this).toggleClass("open");
+        });
+    });
+
     // Scroll to the top of page
     var fixed = false;
     $(document).scroll(function () {

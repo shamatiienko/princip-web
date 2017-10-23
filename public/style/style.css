@@ -313,17 +313,8 @@ p {
   height: auto;
   display: flex;
   align-items: center; }
-  #clients .centered .client-item .client-title.text {
-    font-family: "Cormorant Garamond";
-    font-size: 25px;
-    letter-spacing: 3px;
-    margin-left: 8px;
-    transition: 400ms;
-    opacity: 0.8;
-    cursor: default; }
-    #clients .centered .client-item .client-title.text:hover {
-      opacity: 0.6; }
-  #clients .centered .client-item img {
+  #clients .centered .client-item {
+    transition: 1s ease;
     width: 6rem;
     -webkit-filter: grayscale(100%);
     /* Safari 6.0 - 9.0 */
@@ -332,8 +323,22 @@ p {
     mix-blend-mode: multiply;
     transition: 400ms;
     opacity: 0.9; }
-    #clients .centered .client-item img:hover {
-      opacity: .6; }
+    #clients .centered .client-item:hover {
+      opacity: .6;
+      -webkit-transform: scale(1.2);
+      -ms-transform: scale(1.2);
+      transform: scale(1.2);
+      transition: 1s ease; }
+    #clients .centered .client-item .client-title.text {
+      font-family: "Cormorant Garamond";
+      font-size: 25px;
+      letter-spacing: 3px;
+      margin-left: 8px;
+      transition: 400ms;
+      opacity: 1.2;
+      cursor: default; }
+      #clients .centered .client-item .client-title.text:hover {
+        opacity: 0.6; }
     img > #clients .centered .client-item img:nth-child(4) {
       width: 20px; }
 
