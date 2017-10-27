@@ -2,20 +2,31 @@
 
 #services{
     .heading-text{
-        margin-bottom: 75px;
+        margin-bottom: 45px;
     }
     
     .fa-4x {
-        font-size: 3.5em !important;
+        font-size: 3.2em !important;
     }
 
-    h4.service-heading{
+    .service-heading{
         margin-top: 15px;
         font-weight: 600;
         text-transform: uppercase;
-        font-size: 1.2rem;
+        font-size: 1rem;
     }
-    p{
-        font-size: 1.09rem;
+}
+
+@media (min-width: 768px){
+    #services{
+        .heading-text{
+            margin-bottom: 75px;
+        }
+        .fa-4x {
+            font-size: 3.5em !important;
+        }
+        .service-heading{
+            font-size: 1.2rem;
+        }
     }
 }

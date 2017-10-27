@@ -35,8 +35,14 @@ section{
 .heading-text{
     text-transform: uppercase;
     margin-bottom: 25px;
-    font-size: 1.7rem;
+    font-size: 1.4rem;
     font-weight: 600;   
+}
+
+@media (min-width: 768px){
+    .heading-text{
+        font-size: 1.7rem; 
+    }
 }
 
 .text-vertical-center{
@@ -57,5 +63,11 @@ section{
 }
 
 p{
-    font-size: 1.09rem;
+    font-size: 1rem;
+}
+
+@media (min-width: 768px){
+    p{
+        font-size: 1.09rem; 
+    }
 }

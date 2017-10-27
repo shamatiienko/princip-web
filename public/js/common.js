@@ -8,21 +8,21 @@
         }, 1500);
     });
 
-    $(window).scroll(function () {
-        if ($("#mainNav").offset().top > 100) {
-            $("#mainNav").addClass("navbar-shrink");
-        } else {
-            $("#mainNav").removeClass("navbar-shrink");
-        }
+    // $(window).scroll(function () {
+    //     if ($("#mainNav").offset().top > 100) {
+    //         $("#mainNav").addClass("navbar-shrink");
+    //     } else {
+    //         $("#mainNav").removeClass("navbar-shrink");
+    //     }
 
-        // Scroll to the top of page
-        // if ($("#page-top").scrollTop() > 500) {
-        //     $('.scrolltop:hidden').stop(true, true).fadeIn(2000); //якщо опуститися на 
-        //     //більше ніж 500px,тоді scrolltop:hidden поступово з'являється, а якщо навпаки,то зникає
-        // } else {
-        //     $('.scrolltop').stop(true, true).fadeOut(1600);
-        // }
-    });
+    //     // Scroll to the top of page
+    //     // if ($("#page-top").scrollTop() > 500) {
+    //     //     $('.scrolltop:hidden').stop(true, true).fadeIn(2000); //якщо опуститися на 
+    //     //     //більше ніж 500px,тоді scrolltop:hidden поступово з'являється, а якщо навпаки,то зникає
+    //     // } else {
+    //     //     $('.scrolltop').stop(true, true).fadeOut(1600);
+    //     // }
+    // });
     $(function () { $(".scroll").click(function () { $("html,body").animate({ scrollTop: $("#page-top").offset().top }, "slow"); return false }) })
 
     $(document).ready(function () {

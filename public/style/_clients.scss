@@ -1,16 +1,17 @@
 // Styling for clients section
 
 #clients{
+    max-height: max-content;
     .small{
         margin-bottom: 25px;
     }
     .centered{
         height: auto;
-        display: flex;
         align-items: center;
         .client-item{
             transition: 1s ease;
-            width: 6rem;
+            width: 5rem;
+            margin-bottom: 1.5rem;         
             -webkit-filter: grayscale(100%); /* Safari 6.0 - 9.0 */
             filter: grayscale(100%);
             background-color:white;
@@ -24,22 +25,68 @@
                 transform: scale(1.2);
                 transition: 1s ease;
             }
+            // &.last{
+            //     margin-bottom: 0;
+            // }
             .client-title.text{
                 font-family: "Cormorant Garamond";
-                font-size: 25px;
+                font-size: 23px;
                 letter-spacing: 3px;
-                margin-left: -15px;
                 transition: 400ms;
+                margin-left: -25px;
                 opacity: 1.2;
                 cursor: default;
                 &:hover{
                     opacity: 0.6;
                 }
             }
-            img{
-                
-                img>&:nth-child(4) {
+            img{ 
+                >&:nth-child(4) {
                     width: 20px;
+                }
+            }
+        }
+    }
+}
+
+@media (max-width: 519px) {
+    #clients{
+        .centered{
+            .client-item{
+                margin-bottom: 1.5rem;
+                &.last-sm {
+                    margin-bottom: 0;
+                }
+            }
+        }
+    }
+}
+
+@media (min-width: 520px), (max-width:691px) {
+    #clients{
+        .centered{
+            .client-item{
+                margin-bottom: 1.5rem;
+                &.last-md {
+                    margin-bottom: 0;
+                }
+            }
+        }
+    }
+}
+
+@media (min-width: 692px){
+    #clients{
+        .centered{
+            .client-item{
+                width: 6rem;
+                // margin-bottom: 0;
+                .client-title.text{
+                    font-size: 25px;
+                    margin-left: -15px;
+                }
+                &.last{
+                    margin-bottom: 0;
                 }
             }
         }
