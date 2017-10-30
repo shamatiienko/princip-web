@@ -368,12 +368,12 @@ header {
       > #clients .centered .client-item img:nth-child(4) {
         width: 20px; }
 
-@media (max-width: 519px) {
+@media (max-width: 520px) {
   #clients .centered .client-item {
     margin-bottom: 1.5rem; }
     #clients .centered .client-item.last-sm {
       margin-bottom: 0; } }
-@media (min-width: 520px), (max-width: 691px) {
+@media (min-width: 521px) and (max-width: 691px) {
   #clients .centered .client-item {
     margin-bottom: 1.5rem; }
     #clients .centered .client-item.last-md {
